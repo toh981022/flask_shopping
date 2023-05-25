@@ -1,0 +1,13 @@
+<h3>商品一覧</h3>
+<table border="3">
+    <tbody>
+        {% for item in items %}
+        <tr>
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.price }}円</td>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

@@ -1,0 +1,11 @@
+<h3>カテゴリー一覧</h3>
+<table border="3">
+    <tbody>
+        {% for cate in category %}
+        <tr>
+            <td>{{ cate.id }}</td>
+            <td>{{ cate.name }}</td>
+         </tr>
+         {% endfor %}
+    </tbody>
+</table>
